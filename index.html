@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Map</title>
+    <!-- Include D3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Include TopoJSON -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <!-- Include any CSS styles -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Updated path to CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        svg {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Texas County Choropleth Map</h1>
+    <p>This map visualizes county-level data using a choropleth approach.</p>
+    <div id="map-container">
+        <!-- Map will be rendered here -->
+    </div>
+    <!-- Link your JavaScript file -->
+    <script src="js/main.js"></script>
+</body>
+</html>
