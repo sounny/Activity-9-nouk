@@ -2,6 +2,9 @@
 
 This project creates a **choropleth map** of Texas counties using D3.js and TopoJSON, visualizing data (e.g., median home prices) with color-coded counties.
 
+[Texas County Choropleth Map](https://sounny.github.io/Activity-9-nouk/)
+
+
 ## Features
 - **Choropleth Visualization**: Displays data values by county using a color scale.
 - **TopoJSON Integration**: Simplifies and visualizes geographical data for efficient rendering.
